@@ -1,0 +1,38 @@
+.every-medication {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.every-medication img {
+  max-width: 10rem;
+}
+.idbox {
+  background-color: blue;
+  color: yellow;
+}
+.every-medication li {
+  display: flex;
+  border: black solid 1px;
+  border-radius: 0.2rem;
+  margin: 2px;
+  min-width: 6rem;
+  min-height: 10rem;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.every-medication li {
+  font-size: 1.5rem;
+}
+.sl-type {
+  background-color: yellow;
+}
+@media (max-width: 1159px) {
+  .every-medication {
+    flex-direction: column;
+  }
+  .every-medication li {
+    font-size: 2rem;
+  }
+}
